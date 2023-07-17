@@ -31,7 +31,7 @@
 // bi-directional SDA pin and the library will try to read this via the MOSI line.
 // To use the SDA line for reading data from the TFT uncomment the following line:
 
-#define TFT_RGB_ORDER TFT_RGB
+// #define TFT_RGB_ORDER TFT_RGB
 #define TFT_WIDTH  240
 #define TFT_HEIGHT 320
 
@@ -39,7 +39,7 @@
 // 2 lines try both options, one of the options should correct the inversion.
 
 // #define TFT_INVERSION_ON
-#define TFT_INVERSION_OFF
+// #define TFT_INVERSION_OFF
 
 
 // ##################################################################################
